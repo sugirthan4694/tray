@@ -22,7 +22,7 @@ app.on('ready', function(){
       ]
     },
     {
-      label: 'Item3',
+      label: 'Item2',
       type: 'radio',
       checked: true
     },
