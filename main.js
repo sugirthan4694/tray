@@ -10,12 +10,12 @@ app.on('ready', function(){
   appIcon = new Tray(iconPath);
   var contextMenu = Menu.buildFromTemplate([
     {
-      label: 'Item1',
+      label: 'Item3',
       type: 'radio',
       icon: iconPath
     },
     {
-      label: 'Item2',
+      label: 'Item3',
       submenu: [
         { label: 'submenu1' },
         { label: 'submenu2' }
